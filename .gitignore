@@ -1,0 +1,21 @@
+#ignore log file
+*.log
+
+#ignore system file
+.DS_Store
+
+#ignore npm modules
+node_modules/
+
+# temporary files #
+*~
+
+# Package Files #
+*.zip
+
+# IDE folders or files #
+.idea/
+*.iml
+
+#ignore local web server
+web-server.js
