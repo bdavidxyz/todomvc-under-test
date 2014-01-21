@@ -1,0 +1,48 @@
+h1 {
+    font-size: 51px;
+}
+
+td {
+    text-align: center;
+    font-size: 15px;
+}
+
+.columnexplanation p {
+    margin-bottom: 0px;
+}
+.columnexplanation li {
+    margin-bottom: 10px;
+}
+
+.contact i {
+    font-size: 4em;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.page-header h1 {
+    margin-top: 80px;
+}
+
+#undertest {
+    margin-top: 20px;
+}
+
+.licontact {
+    font-size: 2em;
+}
+.licontact i {
+    margin-right: 20px;
+}
+
+.licontact a {
+     border: 0;
+}
+ li {
+     font-size: 18px;
+ }
+
+ i {
+     cursor: pointer;
+     cursor: hand;
+ }
