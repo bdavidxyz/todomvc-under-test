@@ -6,3 +6,16 @@ td {
     text-align: center;
     font-size: 15px;
 }
+
+.columnexplanation p {
+    margin-bottom: 0px;
+}
+.columnexplanation li {
+    margin-bottom: 10px;
+}
+
+.contact i {
+    font-size: 4em;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}

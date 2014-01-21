@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/bootstrap.slate.min.css" media="screen">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.0.3/css/font-awesome.min.css">
    <!-- <link rel="stylesheet" href="./css/bootswatch.min.css">-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -50,7 +51,7 @@
             <!-- Headings -->
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="lead">The TodoMVC specification is available as plain text here.</p>
+                    <p class="lead">The TodoMVC specification is available <a href="https://github.com/tastejs/todomvc/blob/gh-pages/app-spec.md" style="font-weight: bold">on GitHub</a>.</p>
                 </div>
             </div>
         </div>
@@ -72,7 +73,7 @@
                       <th>Ranking</th>
                       <th>Framework</th>
                       <th>Test passed</th>
-                      <th>% test passed</th>
+                      <th>Nb of files</th>
                       <th>Launch test suite</th>
                       <th>Code coverage</th>
                       <th>Statements</th>
@@ -82,10 +83,10 @@
                   </thead>
                   <tbody>
                   <tr>
-                      <td >1</td>
-                      <td style="vertical-align: middle"><a href="http://backbonejs.org/">Backbone</a></td>
+                      <td style="vertical-align: middle">1</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://backbonejs.org/">Backbone</a></td>
                       <td style="vertical-align: middle">28 / 29</td>
-                      <td style="vertical-align: middle"> 96 %</td>
+                      <td style="vertical-align: middle"> 6</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=backbone'">Launch test suite</button></td>
                       <td style="vertical-align: middle">97 %</td>
                       <td style="vertical-align: middle">106</td>
@@ -94,20 +95,43 @@
                   </tr>
                   <tr>
                       <td style="vertical-align: middle">2</td>
-                      <td style="vertical-align: middle"><a href="http://backbonejs.org/">EmberJS</a></td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://emberjs.com/">EmberJS</a></td>
                       <td style="vertical-align: middle">28 / 29</td>
-                      <td style="vertical-align: middle"> 96 %</td>
+                      <td style="vertical-align: middle"> 7</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=emberjs'">Launch test suite</button></td>
-                      <td style="vertical-align: middle">97 %</td>
+                      <td style="vertical-align: middle">91 %</td>
                       <td style="vertical-align: middle">144</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coverageember/jscoverage.html'">Watch coverage report</button></td>
                       <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
                   </tr>
                   <tr>
                       <td style="vertical-align: middle">3</td>
-                      <td style="vertical-align: middle"><a href="http://backbonejs.org/">CanJS</a></td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://knockoutjs.com/">KnockoutJS</a></td>
+                      <td style="vertical-align: middle">28 / 29</td>
+                      <td style="vertical-align: middle"> 1</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=knockoutjs'">Launch test suite</button></td>
+                      <td style="vertical-align: middle">94 %</td>
+                      <td style="vertical-align: middle">79</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coverageknockout/jscoverage.html'">Watch coverage report</button></td>
+                      <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
+                  </tr>
+
+                  <tr>
+                      <td style="vertical-align: middle">4</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://thoraxjs.org/">Thorax</a></td>
                       <td style="vertical-align: middle">27 / 29</td>
-                      <td style="vertical-align: middle"> 92 %</td>
+                      <td style="vertical-align: middle">7</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=thorax'">Launch test suite</button></td>
+                      <td style="vertical-align: middle">97 %</td>
+                      <td style="vertical-align: middle">74</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coveragethorax/jscoverage.html'">Watch coverage report</button></td>
+                      <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
+                  </tr>
+                  <tr>
+                      <td style="vertical-align: middle">5</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://canjs.com/">CanJS</a></td>
+                      <td style="vertical-align: middle">27 / 29</td>
+                      <td style="vertical-align: middle"> 3</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=canjs'">Launch test suite</button></td>
                       <td style="vertical-align: middle">94 %</td>
                       <td style="vertical-align: middle">59</td>
@@ -115,10 +139,10 @@
                       <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
                   </tr>
                   <tr>
-                      <td style="vertical-align: middle">4</td>
-                      <td style="vertical-align: middle"><a href="http://backbonejs.org/">Dermis</a></td>
+                      <td style="vertical-align: middle">6</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="https://github.com/wearefractal/dermis">Dermis</a></td>
                       <td style="vertical-align: middle">27 / 29</td>
-                      <td style="vertical-align: middle"> 92 %</td>
+                      <td style="vertical-align: middle"> 4</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=dermis'">Launch test suite</button></td>
                       <td style="vertical-align: middle">88 %</td>
                       <td style="vertical-align: middle">77</td>
@@ -126,14 +150,48 @@
                       <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
                   </tr>
                   <tr>
-                      <td style="vertical-align: middle">5</td>
-                      <td style="vertical-align: middle"><a href="http://backbonejs.org/">jQuery</a></td>
+                      <td style="vertical-align: middle">7</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://jquery.com/">jQuery</a></td>
                       <td style="vertical-align: middle">26 / 29</td>
-                      <td style="vertical-align: middle"> 88 %</td>
+                      <td style="vertical-align: middle"> 1</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=jquery'">Launch test suite</button></td>
                       <td style="vertical-align: middle">97 %</td>
                       <td style="vertical-align: middle">97</td>
                       <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coveragejquery/jscoverage.html'">Watch coverage report</button></td>
+                      <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
+                  </tr>
+                  <tr>
+                      <td style="vertical-align: middle">8</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="https://github.com/creynders/dijon">Dijon</a></td>
+                      <td style="vertical-align: middle">26 / 29</td>
+                      <td style="vertical-align: middle"> 8 </td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=dijon'">Launch test suite</button></td>
+                      <td style="vertical-align: middle">98 %</td>
+                      <td style="vertical-align: middle">153</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coveragedijon/jscoverage.html'">Watch coverage report</button></td>
+                      <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
+                  </tr>
+
+                  <tr>
+                      <td style="vertical-align: middle">9</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://atmajs.com/">AtmaJS</a></td>
+                      <td style="vertical-align: middle">26 / 29</td>
+                      <td style="vertical-align: middle">6</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=atmajs'">Launch test suite</button></td>
+                      <td style="vertical-align: middle">92 %</td>
+                      <td style="vertical-align: middle">80</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coverageatmajs/jscoverage.html'">Watch coverage report</button></td>
+                      <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
+                  </tr>
+                  <tr>
+                      <td style="vertical-align: middle">10</td>
+                      <td style="vertical-align: middle; font-weight: bold"><a href="http://agilityjs.com/">AgilityJS</a></td>
+                      <td style="vertical-align: middle">26 / 29</td>
+                      <td style="vertical-align: middle">2</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/tests/root/test/e2e.html?fw=agilityjs'">Launch test suite</button></td>
+                      <td style="vertical-align: middle">91 %</td>
+                      <td style="vertical-align: middle">84</td>
+                      <td style="vertical-align: middle"><button type="button" class="btn btn-success" onclick="window.location.href='/coverage/coverageagility/jscoverage.html'">Watch coverage report</button></td>
                       <td style="vertical-align: middle"><a href="https://github.com/davidb583/BlackboxJS">BlackboxJS</a></td>
                   </tr>
                   </tbody>
@@ -142,22 +200,115 @@
           </div>
         </div>
       </div>
-        <div class="bs-docs-section">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="page-header">
-                        <h1 id="disclaimer">Disclaimer</h1>
-                    </div>
-                </div>
-            </div>
+      <div class="bs-docs-section">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="page-header">
+                      <h1 id="motivation">Why ?</h1>
+                  </div>
+              </div>
+          </div>
 
-            <!-- Headings -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="lead">TodoMVC under test is not an official part of the TodoMVC project.</p>
-                </div>
-            </div>
-        </div>
+          <!-- Headings -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <p class="lead">TodoMVC under was design as a helper to choose your JS MVC Framework.</p>
+                  <ul>
+                      <li>It helps to see if the framework can conform to a simple specification</li>
+                      <li>It helps to see if the framework can help to divide code into small pieces of code</li>
+                      <li>It helps to see if the framework has a tool for functional testing</li>
+                      <li>It helps to see if the framework is easily accessible for a testing tool</li>
+                      <li>It helps to see if the test code is easy to write</li>
+                      <li>It helps to see if the framework requires a lot of code to achieve the same functionalities</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <div class="bs-docs-section">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="page-header">
+                      <h1 id="columnexplanation">Columns explanation</h1>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Headings -->
+          <div class="row">
+              <div class="col-lg-12 columnexplanation">
+                  <ul>
+                      <li><p class="lead">Ranking</p> Ranking is a subjective view of how compete a framework compared to another. The first criteria is compliance to the spec. If equal, the ranking is function of combination of NbOfFiles and Statements. </li>
+                      <li><p class="lead">Framework</p> All frameworks are directly extracted from the official TodoMVC project. For this first version, only 10 frameworks are included.</li>
+                      <li><p class="lead">Test passed</p> There are 29 tests for the moment, all are the same, done by the same tool : BlackboxJS. There are identified tests that are missing : What happen when user press on "ESC" when editing, and what happens when he press "ENTER"</li>
+                      <li><p class="lead">Nb of files</p> Number of files to achieve the result in the given framework, external librairies excluded</li>
+                      <li><p class="lead">Launch test suite</p> Launches the test suite inside the browser. No external tool needed. This point show how easy it is to launch the associated tool. If it can't be launched directly, instruction to run tests should be shown.</li>
+                      <li><p class="lead">Code coverage</p>Number of statements that the test suite covered (in %) </li>
+                      <li><p class="lead">Statement</p>Number of line of code that may be executed.</li>
+                      <li><p class="lead">Watch Code coverage</p>Open the JSCover report. This one shows code, overall coverage, detailed coverage per file. </li>
+                      <li><p class="lead">Test tool</p> For the moment only BlackboxJS is in use. Because the tool tries to test any Javascript MVC framework, it is well adapted to test TodoMVC</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="bs-docs-section">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="page-header">
+                      <h1 id="roadmap">Roadmap</h1>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Headings -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <ul>
+                      <li>Add AngularJS </li>
+                      <li>Add link to test code </li>
+                      <li>Add other JS MVC frameworks</li>
+                      <li>Add other testing frameworks</li>
+                      <li>Add missing functionnal tests </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="bs-docs-section">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="page-header">
+                      <h1 id="disclaimer">Disclaimer</h1>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Headings -->
+          <div class="row">
+              <div class="col-lg-12">
+                  <p class="lead">TodoMVC under test is not an official part of the TodoMVC project.</p>
+              </div>
+          </div>
+      </div>
+      <div class="bs-docs-section">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="page-header">
+                      <h1 id="contact">Contact</h1>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Headings -->
+          <div class="row">
+              <div class="col-lg-12 contact">
+                  <i class="fa fa-linkedin-square fa-3"></i><i class="fa fa-github-alt"></i><i class="fa fa-google-plus-square"></i><i class="fa fa-twitter-square"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+
     </div>
 
 
