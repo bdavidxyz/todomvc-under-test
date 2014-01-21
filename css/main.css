@@ -46,3 +46,9 @@ td {
      cursor: pointer;
      cursor: hand;
  }
+ 
+ body {
+     background-color: transparent;
+     background-image: url("../img/brushed.png");
+     background-repeat: repeat;
+ }
